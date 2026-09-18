@@ -62,7 +62,7 @@
       <section class="view" id="lots">
         <div class="card section">
           <div class="section-title"><h3>원재료 Lot 관리</h3><button class="btn primary" id="newLotBtn">+ Lot 등록</button></div>
-          <div class="filters"><input class="input" id="lotSearch" placeholder="Lot 또는 조직은행 검색"><select id="bankFilter"><option value="">전체 조직은행</option></select></div>
+          <div class="filters"><input class="input" id="lotSearch" placeholder="Lot 또는 조직은행 검색"><select id="bankFilter"><option value="">전체 조직은행<[REDACTED]></select></div>
           <div class="table-wrap"><table><thead><tr><th>Lot</th><th>조직은행</th><th>입고일</th><th>입고면적</th><th>확정 실측</th><th>실측률</th><th>두께</th><th>사진</th><th>현재 단계</th><th></th></tr></thead><tbody id="lotRows"></tbody></table></div>
         </div>
       </section>
@@ -73,7 +73,7 @@
             <div class="section-title"><h3>공정 데이터 입력</h3><span>필수 숫자만 입력, 수율/Loss는 자동 계산</span></div>
             <div class="form-grid">
               <div class="field full"><label>원재료 Lot</label><select id="pLot"></select></div>
-              <div class="field full"><label>공정 단계</label><select id="pStage"><option value="sderm">S Derm HD / CP 생산</option><option value="fdadm">FD 생산 / ADM 측정</option><option value="cutting">Cutting Mill</option><option value="freezer">Freezer Mill / Grade 분리</option><option value="final">최종제품 생산</option></select></div>
+              <div class="field full"><label>공정 단계</label><select id="pStage"><option value="sderm">S Derm HD / CP 생산<[REDACTED]><option value="fdadm">FD 생산 / ADM 측정<[REDACTED]><option value="cutting">Cutting Mill<[REDACTED]><option value="freezer">Freezer Mill / Grade 분리<[REDACTED]><option value="final">최종제품 생산<[REDACTED]></select></div>
               <div class="field"><label>작업일</label><input class="input" id="pDate" type="date"></div>
               <div class="field"><label>작업자 / 메모 키워드</label><input class="input" id="pOperator" placeholder="예: 생산1팀"></div>
             </div>
@@ -154,5 +154,6 @@
 </div></div>
 
 <script src="app-v2.js"></script>
+<script src="app-v3.js"></script>
 </body>
 </html>
